@@ -1,40 +1,34 @@
-🎓 University AI Assistant
-A Multi-Agent University AI Assistant built using LangGraph, LangChain, Ollama, Streamlit, and SQLite. The assistant intelligently routes student queries to specialized AI agents for Admission, Hostel, Academics, Placements, Profile Management, and Memory.
+# 🎓 University AI Assistant
 
-The project demonstrates multi-agent architecture, state management, persistent conversation memory, and LLM-powered intent classification.
+A **Multi-Agent University AI Assistant** built using **LangGraph, LangChain, Ollama, Streamlit, and SQLite**.
 
-🚀 Features
-🤖 Multi-Agent Architecture using LangGraph
+The assistant intelligently routes student queries to specialized AI agents for **Admission, Hostel, Academics, Placements, Profile Management, and Memory**.
 
-🎓 Dedicated Agents for:
+This project demonstrates **Multi-Agent Architecture**, **State Management**, **Persistent Conversation Memory**, and **LLM-powered Intent Classification**.
 
-Admission
+---
 
-Hostel
+# 🚀 Features
 
-Academics
+* 🤖 **Multi-Agent Architecture** using LangGraph
+* 🎓 **Dedicated AI Agents**
 
-Placements
+  * Admission Agent
+  * Hostel Agent
+  * Academic Agent
+  * Placement Agent
+  * Profile Agent
+  * Memory Agent
+  * General Conversation Agent
+* 🧠 Persistent Conversation Memory using SQLite Checkpointer
+* 👤 Automatic Student Profile Extraction
+* 🚦 Intelligent Query Routing
+* 💬 Interactive Streamlit Chat Interface
+* 🦙 Local LLM using **Ollama (Qwen2.5:3B)**
+* 📚 Modular Knowledge Base
+* ⚡ Fast Local Inference
 
-Profile Management
-
-Memory
-
-General Conversation
-
-🧠 Persistent Memory using SQLite Checkpointer
-
-👤 Automatic Student Profile Extraction
-
-🛣️ Intelligent Query Routing
-
-💬 Modern Streamlit Chat Interface
-
-🦙 Local LLM using Ollama (Qwen2.5:3B)
-
-📚 Modular Knowledge Base
-
-⚡ Fast Local Inference
+---
 
 # 🏗️ System Architecture
 
